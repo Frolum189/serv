@@ -1,0 +1,227 @@
+[15:35:02] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[15:35:04] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_252, running on Windows 10:amd64:10.0, installed at D:\server\CustomJAVA
+[15:35:04] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[15:35:05] [main/INFO] [FML/]: [AppEng] Core Init
+[15:35:16] [main/WARN] [FML/]: The following coremods do not have a @MCVersion annotation. They may cause problems if this is not the correct version of Minecraft for them.
+[15:35:16] [main/WARN] [FML/]: Missing @MCVersion: cofh.asm.LoadingPlugin  ic2.core.coremod.IC2core  mcp.mobius.mobiuscore.asm.CoreDescription  thaumcraft.codechicken.core.launch.DepLoader  thaumic.tinkerer.preloader.ThaumicTLoaderContainer  
+[15:35:16] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:35:16] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:35:16] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:35:16] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:35:16] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:19] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:25] [main/INFO] [IC2-core/]: Loaded library EJML-core-0.26.jar.
+[15:35:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:35:28] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:28] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:35:28] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[15:35:28] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[15:35:29] [main/INFO] [MobiusCore/]: Current code is OBFUSCATED
+[15:35:29] [main/INFO] [MobiusCore/]: Found cpw.mods.fml.common.FMLCommonHandler with checksum 83BDA5B8DC00FF4B49DC48338FE669FF
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in onPreServerTick ()V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in onPostServerTick ()V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in onPreWorldTick (Lahb;)V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in onPostWorldTick (Lahb;)V
+[15:35:29] [main/INFO] [MobiusCore/]: Switching injection mode to CAULDRON
+[15:35:29] [main/INFO] [MobiusCore/]: [MobiusCore] Found net.minecraft.world.World [ ahb ] with checksum 3B37C6EE59E75C2BECDCB59A1FC4ADAE
+[15:35:29] [main/INFO] [MobiusCore/]: Found World.updateEntities()...
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in h ()V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in h ()V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in h ()V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in h ()V
+[15:35:29] [main/INFO] [MobiusCore/]: Found World.<init> (Lazc;Ljava/lang/String;Lahj;Laqo;Lqi;)V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in <init> (Lazc;Ljava/lang/String;Lahj;Laqo;Lqi;)V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in <init> (Lazc;Ljava/lang/String;Lahj;Laqo;Lqi;)V
+[15:35:29] [main/INFO] [MobiusCore/]: [MobiusCore] Found net.minecraft.world.WorldServer [ mt ] with checksum 8BEA4BA17F80CBCF171BB788AE5C0F5A
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in b ()V
+[15:35:29] [main/INFO] [MobiusCore/]: Successful injection in b ()V
+[15:35:30] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[15:35:37] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[15:35:37] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[15:35:38] [Server thread/INFO] [FML/]: Replaced 184 ore recipies
+[15:35:38] [Server thread/WARN] [FML/]: =============================================================
+[15:35:38] [Server thread/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[15:35:38] [Server thread/WARN] [FML/]: Offendor: com/mohistmc/MohistMC.main([Ljava/lang/String;)V
+[15:35:38] [Server thread/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[15:35:38] [Server thread/WARN] [FML/]: =============================================================
+[15:35:38] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[15:35:38] [Server thread/INFO] [FML/]: [AppEng] Core Init
+[15:35:38] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:35:38] [Server thread/INFO] [FML/]: Searching D:\server\mods for mods
+[15:35:38] [Server thread/INFO] [FML/]: Also searching D:\server\mods\1.7.10 for mods
+[15:35:49] [Server thread/INFO] [tcmatrix/]: Mod tcmatrix is missing the required element 'name'. Substituting tcmatrix
+[15:35:51] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 52 mods to load
+[15:35:51] [Server thread/INFO] [FML/]: Found mod(s) [PowerUtils] containing declared API package cofh.api.energy (owned by CoFHAPI) without associated API reference
+[15:35:51] [Server thread/INFO] [FML/]: Found mod(s) [GraviSuite] containing declared API package buildcraft.api.tools (owned by BuildCraftAPI|core) without associated API reference
+[15:35:56] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, appliedenergistics2-core, MobiusCore, ThE-core, ThaumicTinkerer-preloader, <CoFH ASM>, AdvancedSolarPanel, ae2stuff, appliedenergistics2, Backpack, Baubles, bdlib, BiblioCraft, botaniaaddon, Botania, BrandonsCore, BuildCraft|Core, BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders, BuildCraft|Compat, CarpentersBlocks, CoFHCore, customnpcs, DraconicEvolution, DragonsRadioMod, EMT, endercore, EnderIO, GraviSuite, IC2NuclearControl, IC2, IronChest, Mantle, tcmatrix, PowerUtils, SolarFlux, symcalc, TConstruct, Thaumcraft, thaumicenergistics, ThaumicTinkerer, ThermalDynamics, ThermalExpansion, ThermalFoundation, woodenbucket] at CLIENT
+[15:35:56] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, appliedenergistics2-core, MobiusCore, ThE-core, ThaumicTinkerer-preloader, <CoFH ASM>, AdvancedSolarPanel, ae2stuff, appliedenergistics2, Backpack, Baubles, bdlib, BiblioCraft, botaniaaddon, Botania, BrandonsCore, BuildCraft|Core, BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders, BuildCraft|Compat, CarpentersBlocks, CoFHCore, customnpcs, DraconicEvolution, DragonsRadioMod, EMT, endercore, EnderIO, GraviSuite, IC2NuclearControl, IC2, IronChest, Mantle, tcmatrix, PowerUtils, SolarFlux, symcalc, TConstruct, Thaumcraft, thaumicenergistics, ThaumicTinkerer, ThermalDynamics, ThermalExpansion, ThermalFoundation, woodenbucket] at SERVER
+[15:35:57] [Server thread/INFO] [MobiusCore/FML]: Found cpw.mods.fml.common.network.FMLOutboundHandler with checksum 00A33924978AE93D6B04522FAC504D09
+[15:35:57] [Server thread/INFO] [MobiusCore/FML]: Successful injection in write (Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Lio/netty/channel/ChannelPromise;)V
+[15:35:57] [Server thread/INFO] [MobiusCore/IC2]: Found cpw.mods.fml.common.eventhandler.ASMEventHandler with checksum D6EBA8BEF5FF7A135B8557D7C18E9388
+[15:35:57] [Server thread/INFO] [MobiusCore/IC2]: Successful injection in <init> (Ljava/lang/Object;Ljava/lang/reflect/Method;Lcpw/mods/fml/common/ModContainer;)V
+[15:35:57] [Server thread/INFO] [MobiusCore/IC2]: Successful injection in invoke (Lcpw/mods/fml/common/eventhandler/Event;)V
+[15:35:57] [Server thread/INFO] [MobiusCore/IC2]: Successful injection in invoke (Lcpw/mods/fml/common/eventhandler/Event;)V
+[15:35:57] [Server thread/ERROR] [IC2/IC2]: The mod IC2 is expecting signature de041f9f6187debbc77034a344134053277aa3b0 for source industrialcraft-2-2.2.827-experimental-client.jar, however there is no signature matching that description
+[15:35:59] [Server thread/ERROR] [Backpack/Backpack]: The mod Backpack is expecting signature @FINGERPRINT@ for source backpack_2.0.1_1.7.x.jar, however there is no signature matching that description
+[15:36:00] [Server thread/INFO] [Brandon's Core/BrandonsCore]: Hello Minecraft!!!
+[15:36:03] [Server thread/INFO] [Draconic Evolution/DraconicEvolution]: Hello Minecraft!!!
+[15:36:04] [Server thread/ERROR] [Mantle/Mantle]: [Environment Checks] Bukkit implementation detected. This may cause issues. Bukkit implementations include Craftbukkit and Cauldron(MCPC+).
+[15:36:04] [Server thread/INFO] [TConstruct/TConstruct]: Preparing to take over the world
+[15:36:05] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[15:36:06] [Server thread/INFO] [FML/]: Found 336 ObjectHolder annotations
+[15:36:06] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[15:36:06] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[15:36:06] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[15:36:12] [Server thread/INFO] [AE2:S/appliedenergistics2]: Pre Initialization ( started )
+[15:36:12] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: func_145841_b(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[15:36:12] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: func_145839_a(Lnet/minecraft/nbt/NBTTagCompound;)V - Transformed
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface ic2.api.energy.tile.IEnergySink from appeng/tile/powersink/IC2 because IC2 integration is enabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Interface Reika.RotaryCraft.API.Power.AdvancedShaftPowerReceiver from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Interface Reika.RotaryCraft.API.Interfaces.Transducerable from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Method Tick_RotaryCraft from appeng/tile/powersink/RotaryCraft because RotaryCraft integration is disabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Updated appeng/tile/powersink/RotaryCraft
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface cofh.api.energy.IEnergyReceiver from appeng/tile/powersink/RedstoneFlux because RF integration is enabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Interface mekanism.api.energy.IStrictEnergyAcceptor from appeng/tile/powersink/MekJoules because Mekanism integration is disabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Updated appeng/tile/powersink/MekJoules
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Interface powercrystals.minefactoryreloaded.api.rednet.connectivity.IRedNetConnection from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Method getConnectionType from appeng/block/networking/BlockCableBus because MFR integration is disabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Updated appeng/block/networking/BlockCableBus
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/quartz/ToolQuartzWrench because BuildCraftCore integration is enabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface ic2.api.item.ISpecialElectricItem from appeng/items/tools/powered/powersink/IC2 because IC2 integration is enabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface ic2.api.item.IElectricItemManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is enabled.
+[15:36:13] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Method getManager from appeng/items/tools/powered/powersink/IC2 because IC2 integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface cofh.api.energy.IEnergyContainerItem from appeng/items/tools/powered/powersink/RedstoneFlux because RFItem integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface buildcraft.api.tools.IToolWrench from appeng/items/tools/ToolNetworkTool because BuildCraftCore integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/misc/PartStorageBus because BuildCraftTransport integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Method overridePipeConnection from appeng/parts/misc/PartStorageBus because BuildCraftTransport integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface buildcraft.api.transport.IPipeConnection from appeng/parts/p2p/PartP2PItems because BuildCraftTransport integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Method overridePipeConnection from appeng/parts/p2p/PartP2PItems because BuildCraftTransport integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface ic2.api.energy.tile.IEnergySink from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface ic2.api.energy.tile.IEnergySource from appeng/parts/p2p/PartP2PIC2Power because IC2 integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Allowing Interface cofh.api.energy.IEnergyReceiver from appeng/parts/p2p/PartP2PRFPower because RF integration is enabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Interface li.cil.oc.api.network.Environment from appeng/parts/p2p/PartP2POpenComputers because OpenComputers integration is disabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Interface li.cil.oc.api.network.SidedEnvironment from appeng/parts/p2p/PartP2POpenComputers because OpenComputers integration is disabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Updated appeng/parts/p2p/PartP2POpenComputers
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Removing Interface pneumaticCraft.api.tileentity.ISidedPneumaticMachine from appeng/parts/p2p/PartP2PPressure because PneumaticCraft integration is disabled.
+[15:36:14] [Server thread/INFO] [AE2-CORE/appliedenergistics2]: Updated appeng/parts/p2p/PartP2PPressure
+[15:36:15] [Server thread/INFO] [AE2:S/appliedenergistics2]: Starting AE2 VersionChecker
+[15:36:15] [Server thread/INFO] [AE2:S/appliedenergistics2]: Pre Initialization ( ended after 3289ms )
+[15:36:15] [Server thread/INFO] [bdlib/bdlib]: bdlib 1.9.4.109 loaded
+[15:36:16] [Server thread/INFO] [bdlib/bdlib]: Initialized network channel 'bdew.multiblock' for mod 'bdlib'
+[15:36:17] [Server thread/INFO] [bdlib/ae2stuff]: Loading internal config files for mod AE2 Stuff
+[15:36:17] [Server thread/INFO] [bdlib/ae2stuff]: Loading config: jar:file:/D:/server/mods/ae2stuff-rv3-0.5.1.9-mc1.7.10.jar!/assets/ae2stuff/config/tuning.cfg
+[15:36:18] [Server thread/INFO] [bdlib/ae2stuff]: Loading config: jar:file:/D:/server/mods/ae2stuff-rv3-0.5.1.9-mc1.7.10.jar!/assets/ae2stuff/config/recipes.cfg
+[15:36:18] [Server thread/INFO] [bdlib/ae2stuff]: Loading user config files for mod AE2 Stuff
+[15:36:18] [Server thread/INFO] [bdlib/ae2stuff]: Config loading for mod AE2 Stuff finished
+[15:36:18] [Server thread/INFO] [bdlib/ae2stuff]: Loaded creative tabs for ae2stuff
+[15:36:19] [AE2 VersionChecker/INFO] [AE2:S/appliedenergistics2]: Last check was just recently.
+[15:36:19] [AE2 VersionChecker/INFO] [AE2:S/appliedenergistics2]: Stopping AE2 VersionChecker
+[15:36:21] [Server thread/INFO] [ThE-Core/Thaumcraft]: Transforming Class (thaumcraft.api.aspects.Aspect)
+[15:36:23] [Server thread/INFO] [ThE-Core/Thaumcraft]: Transforming Class (thaumcraft.common.entities.golems.ItemGolemPlacer)
+[15:36:23] [Server thread/INFO] [ThE-Core/Thaumcraft]: Transforming Class (thaumcraft.common.entities.golems.EntityGolemBase)
+[15:36:23] [Server thread/INFO] [ThE-Core/Thaumcraft]: Transforming Class (thaumcraft.common.entities.golems.ItemGolemBell)
+[15:36:27] [Server thread/INFO] [FML/Botania]: [Botania] Registered 1215 recipes.
+[15:36:28] [Server thread/INFO] [CoFHWorld/CoFHCore]: Registering Default Templates.
+[15:36:28] [Server thread/INFO] [CoFHWorld/CoFHCore]: Registering default generators
+[15:36:29] [Server thread/INFO] [CoFHWorld/CoFHCore]: Complete
+[15:36:29] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: Starting BuildCraft 7.1.23
+[15:36:29] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: Copyright (c) the BuildCraft team, 2011-2017
+[15:36:29] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: http://www.mod-buildcraft.com
+[15:36:29] [Thread-11/INFO] [BuildCraft/BuildCraft|Core]: Beginning version check
+[15:36:29] [Thread-11/WARN] [BuildCraft/BuildCraft|Core]: Using outdated version [7.1.23] for Minecraft 1.7.10. Consider updating to 7.1.24.
+[15:36:33] [Server thread/INFO] [ThermalFoundation/ThermalFoundation]: Thermal Foundation: Loading Plugins...
+[15:36:33] [Server thread/INFO] [ThermalFoundation/ThermalFoundation]: Thermal Foundation: Finished Loading Plugins.
+[15:36:34] [Server thread/INFO] [ThermalExpansion/ThermalExpansion]: ThermalExpansion: Loading Plugins...
+[15:36:34] [Server thread/INFO] [ThermalExpansion/ThermalExpansion]: Thermal Expansion: Finished Loading Plugins.
+[15:36:35] [Server thread/INFO] [CarpentersBlocks/CarpentersBlocks]: Designs found: Bed(6), Chisel(9), FlowerPot(18), Tile(13)
+[15:36:36] [Server thread/WARN] [/customnpcs]: [15:36:36][FINE][noppes.npcs.LogWriter:71] Sun Jun 05 15:36:36 EEST 2022
+
+[15:36:36] [Server thread/WARN] [/customnpcs]: [15:36:36][FINE][noppes.npcs.controllers.ScriptController:60] Script Engines Available:
+
+[15:36:36] [Server thread/WARN] [/customnpcs]: [15:36:36][FINE][noppes.npcs.controllers.ScriptController:66] Scala: .scala
+
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: Bukkit permissions enabled
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: Permissions available:
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.edit.blocks
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.edit.villager
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.bank
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.dialog
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.faction
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.linked
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.naturalspawn
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.playerdata
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.quest
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.recipe
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.global.transport
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.advanced
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.ai
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.clone
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.create
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.delete
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.display
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.freeze
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.gui
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.inventory
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.reset
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.npc.stats
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.soulstone.all
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.spawner.create
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.spawner.mob
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.tool.mounter
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.tool.pather
+[15:36:36] [Server thread/INFO] [noppes.npcs.CustomNpcs/customnpcs]: customnpcs.tool.scripter
+[15:36:36] [Server thread/INFO] [DraconicEvolution/DraconicEvolution]: Loading events config
+[15:36:37] [Server thread/INFO] [Draconic Evolution/DraconicEvolution]: Finished PreInitialization
+[15:36:38] [Server thread/INFO] [Electro-Magic Tools/EMT]: Starting planning the world domination
+[15:36:38] [DE Contributors DL Thread/ERROR] [Draconic Evolution/DraconicEvolution]: Failed to download contributors list
+[15:36:38] [DE Contributors DL Thread/WARN] [/DraconicEvolution]: java.io.FileNotFoundException: D:\server\config\draconicevolution\contributors.json (Системе не удается найти указанный путь)
+[15:36:38] [DE Contributors DL Thread/WARN] [/DraconicEvolution]: 	at java.io.FileOutputStream.open0(Native Method)
+[15:36:38] [DE Contributors DL Thread/WARN] [/DraconicEvolution]: 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+[15:36:38] [DE Contributors DL Thread/WARN] [/DraconicEvolution]: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+[15:36:38] [DE Contributors DL Thread/WARN] [/DraconicEvolution]: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+[15:36:38] [DE Contributors DL Thread/WARN] [/DraconicEvolution]: 	at com.brandon3055.draconicevolution.common.handler.ContributorHandler$DLThread.run(ContributorHandler.java:222)
+[15:36:38] [Server thread/INFO] [Electro-Magic Tools/EMT]: Planning complete
+[15:36:41] [Server thread/INFO] [EnderIO/EnderIO]: XP Juice registered by Ender IO.
+[15:36:43] [Server thread/INFO] [Mantle/Mantle]: Mantle (1.7.10-0.3.2.jenkins191) -- Preparing for launch.
+[15:36:43] [Server thread/INFO] [Mantle/Mantle]: Entering preinitialization phase.
+[15:36:43] [Server thread/INFO] [Mantle/Mantle]: Loading configuration from disk.
+[15:36:43] [Server thread/INFO] [Mantle/Mantle]: Configuration load completed.
+[15:36:43] [Server thread/INFO] [SolarFlux/SolarFlux]: Pre Initialization
+[15:36:43] [Server thread/INFO] [SolarFlux/SolarFlux]: Initialization of configuration
+[15:36:44] [Server thread/INFO] [SolarFlux/SolarFlux]: Registering blocks
+[15:36:44] [Server thread/INFO] [SolarFlux/SolarFlux]: Registering items
+[15:36:44] [Server thread/INFO] [symcalc/symcalc]: SymCalc 0.14 initializing
+[15:36:44] [Server thread/INFO] [symcalc/symcalc]: Added symmetry calculator item
+[15:36:44] [Server thread/INFO] [PulseManager-TConstruct/TConstruct]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
+[15:36:44] [Server thread/INFO] [PulseManager-TConstruct/TConstruct]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
+[15:36:44] [Server thread/INFO] [PulseManager-TConstruct/TConstruct]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
+[15:36:44] [Server thread/INFO] [PulseManager-TConstruct/TConstruct]: Skipping Pulse Tinkers FMP Compatibility; missing dependency: ForgeMultipart
+[15:36:44] [Server thread/INFO] [PulseManager-TConstruct/TConstruct]: Skipping Pulse Tinkers' Underground Biomes Compatiblity; missing dependency: UndergroundBiomes
+[15:36:44] [Server thread/INFO] [PulseManager-TConstruct/TConstruct]: Skipping Pulse Tinkers RF-Tools Compatibility; missing dependency: rftools
+[15:36:45] [Server thread/INFO] [TConstruct/TConstruct]: Gear module active. Adding gear cast.
+[15:36:45] [Server thread/INFO] [Thaumic Energistics/thaumicenergistics]: Starting (PreInit)
+[15:36:45] [Server thread/INFO] [Thaumic Energistics/thaumicenergistics]: Finished (PreInit in 477ms)
+[15:36:49] [Server thread/INFO] [ThermalDynamics/ThermalDynamics]: Loading Plugins...
+[15:36:49] [Server thread/INFO] [ThermalDynamics/ThermalDynamics]: Finished Loading Plugins.
+[15:36:49] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:36:49] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:36:49] [Server thread/INFO] [FML/]: Injecting itemstacks
+[15:36:49] [Server thread/INFO] [FML/]: Itemstack injection complete
+[15:36:50] [Server thread/INFO] [Minecraft/]: This server is running Cauldron version 1.7.10-46 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[15:36:50] [Server thread/INFO] [Minecraft/]: Using 2 threads for Netty based IO
+[15:36:50] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[15:36:52] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[15:36:52] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:36:52] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:36:52] [Server thread/ERROR] [ae2stuff/]: Skipping event FMLServerStoppedEvent and marking errored mod ae2stuff since required dependency appliedenergistics2 has errored
+[15:36:53] [Server thread/WARN] [EnderIO/EnderIO]: Failed to write Transciever Channels on exit: java.util.concurrent.ExecutionException: java.lang.NullPointerException
+[15:36:53] [Server thread/ERROR] [thaumicenergistics/]: Skipping event FMLServerStoppedEvent and marking errored mod thaumicenergistics since required dependency appliedenergistics2 has errored
+[15:36:53] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+[15:36:53] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded.

@@ -1,0 +1,74 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 6/5/22 12:41 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	Baubles : any
+
+cpw.mods.fml.common.MissingModsException
+	at cpw.mods.fml.common.Loader.sortModList(Loader.java:243)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:493)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:313)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:177)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:646)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Mohist Version: 1.7.10-46:
+	Plugins: ~~ERROR~~ NullPointerException: null
+	Disabled Plugins: ~~ERROR~~ NullPointerException: null
+	Operating System: Windows 11 (x86) version 10.0
+	Java Version: 1.8.0_333, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode), Oracle Corporation
+	Memory: 652267400 bytes (622 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 2 total; -Xms1G -Xmx1G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 34 mods loaded, 34 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	U	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	U	FML{7.10.99.99} [Forge Mod Loader] (server.jar) 
+	U	Forge{10.13.4.1614} [Minecraft Forge] (server.jar) 
+	U	kimagine{0.2} [KImagine] (minecraft.jar) 
+	U	appliedenergistics2-core{rv3-beta-6} [Applied Energistics 2 Core] (minecraft.jar) 
+	U	MobiusCore{1.2.5} [MobiusCore] (minecraft.jar) 
+	U	ThE-core{1.0.0.1} [Thaumic Energistics Core] (minecraft.jar) 
+	U	ThaumicTinkerer-preloader{0.1} [Thaumic Tinkerer Core] (minecraft.jar) 
+	U	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] (AdvancedSolarPanel-1.7.10-3.5.1.jar) 
+	U	ae2stuff{0.5.1.9} [AE2 Stuff] (ae2stuff-rv3-0.5.1.9-mc1.7.10.jar) 
+	U	appliedenergistics2{rv3-beta-6} [Applied Energistics 2] (appliedenergistics2-rv3-beta-6-client.jar) 
+	U	Backpack{2.0.1} [Backpack] (backpack_2.0.1_1.7.x.jar) 
+	U	bdlib{1.9.4.109} [BD Lib] (bdlib-1.9.4.109-mc1.7.10.jar) 
+	U	botaniaaddon{0.1} [Botania++] (botania++.jar) 
+	U	Botania{r1.8-249} [Botania] (Botania-r1.8-249.jar) 
+	U	BrandonsCore{1.0.0.12} [Brandon's Core] (BrandonsCore.jar) 
+	U	customnpcs{1.7.10d} [CustomNpcs] (CustomNPCs-1.7.10d-cl_latest.jar) 
+	U	DraconicEvolution{1.0.2h} [Draconic Evolution] (Draconic-Evolution-1.7.10-client-m.jar) 
+	U	DragonsRadioMod{1.7.1} [Dragon's Radio Mod] (Dragon's+Radio+Mod-MC1.7.10-1.7.1.jar) 
+	U	GraviSuite{2.5.0b1} [Gravitation Suite] (GraviSuite.jar) 
+	U	IC2NuclearControl{2.4.3a} [Nuclear Control 2] (ic2nuclearcontrol.jar) 
+	U	IC2{2.2.827-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.827-experimental-client.jar) 
+	U	IronChest{6.0.62.742} [Iron Chest] (ironchest.jar) 
+	U	tcmatrix{0.1} [tcmatrix] (MatrixAddon.jar) 
+	U	harvestcraft{1.7.10j} [Pam's HarvestCraft] (PamsHarvestCraft-1.7.10Lb.jar) 
+	U	symcalc{0.14} [Symcalc] (symcalc-0.14.jar) 
+	U	TConstruct{1.7.10-1.8.8.build988} [Tinkers' Construct] (TConstruct-1.7.10-1.8.8-client-hat.jar) 
+	U	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft_1.7.10_4.2.3.5.jar) 
+	U	thaumicenergistics{1.1.3.0} [Thaumic Energistics] (thaumicenergistics-1.1.3.0.jar) 
+	U	ThaumicTinkerer{unspecified} [Thaumic Tinkerer] (ThaumicTinkerer-2.5-1.7.10-538-client.jar) 
+	U	ThermalDynamics{1.7.10R1.2.1} [Thermal Dynamics] (ThermalDynamics-[1.7.10]1.2.0B2-169.jar) 
+	U	ThermalExpansion{1.7.10R4.1.5} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.1.3-246.jar) 
+	U	ThermalFoundation{1.7.10R1.2.6} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.5-115.jar) 
+	U	woodenbucket{0.0.3.9} [Wooden Bucket] (WoodenBucket-1.7.10-0.0.3b9-universal.jar) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'cauldron,craftbukkit,mcpc,mohist,fml,forge'
+	Type: Dedicated Server (map_server.txt)

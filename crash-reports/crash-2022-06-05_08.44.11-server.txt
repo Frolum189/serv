@@ -1,0 +1,187 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 05.06.22 8:44
+Description: Exception in server tick loop
+
+java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
+	at tconstruct.smeltery.blocks.SmelteryBlock.func_149749_a(SmelteryBlock.java:296)
+	at net.minecraft.world.chunk.Chunk.func_150807_a(Chunk.java:651)
+	at net.minecraft.world.World.func_147465_d(World.java:847)
+	at net.minecraft.world.gen.structure.StructureComponent.func_151550_a(StructureComponent.java:541)
+	at net.minecraft.world.gen.structure.StructureVillagePieces$Village.func_151550_a(StructureVillagePieces.java:1698)
+	at net.minecraft.world.gen.structure.StructureComponent.func_151556_a(StructureComponent.java:607)
+	at net.minecraft.world.gen.structure.StructureVillagePieces$Village.func_151549_a(StructureVillagePieces.java:1707)
+	at tconstruct.world.village.ComponentSmeltery.func_74875_a(ComponentSmeltery.java:62)
+	at net.minecraft.world.gen.structure.StructureStart.func_75068_a(StructureStart.java:45)
+	at net.minecraft.world.gen.structure.MapGenStructure.func_75051_a(MapGenStructure.java:93)
+	at net.minecraft.world.gen.ChunkProviderGenerate.func_73153_a(ChunkProviderGenerate.java:387)
+	at org.bukkit.craftbukkit.v1_7_R4.generator.NormalChunkGenerator.func_73153_a(NormalChunkGenerator.java:57)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:395)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1202)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:264)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:170)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:138)
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:491)
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:456)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:338)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:646)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 22 more
+Caused by: java.lang.RuntimeException: Attempted to load class bao for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:51)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 24 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Mohist Version: 1.7.10-46:
+	Plugins: 
+	Disabled Plugins: 
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_252, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 85693048 bytes (81 MB) / 499646464 bytes (476 MB) up to 894959616 bytes (853 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 15, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 51 mods loaded, 51 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{7.10.99.99} [Forge Mod Loader] (server.jar) 
+	UCHIJAA	Forge{10.13.4.1614} [Minecraft Forge] (server.jar) 
+	UCHIJAA	kimagine{0.2} [KImagine] (minecraft.jar) 
+	UCHIJAA	appliedenergistics2-core{rv3-beta-6} [Applied Energistics 2 Core] (minecraft.jar) 
+	UCHIJAA	MobiusCore{1.2.5} [MobiusCore] (minecraft.jar) 
+	UCHIJAA	ThE-core{1.0.0.1} [Thaumic Energistics Core] (minecraft.jar) 
+	UCHIJAA	ThaumicTinkerer-preloader{0.1} [Thaumic Tinkerer Core] (minecraft.jar) 
+	UCHIJAA	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCHIJAA	IC2{2.2.827-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.827-experimental-client.jar) 
+	UCHIJAA	AdvancedSolarPanel{1.7.10-3.5.1} [Advanced Solar Panels] (AdvancedSolarPanel-1.7.10-3.5.1.jar) 
+	UCHIJAA	appliedenergistics2{rv3-beta-6} [Applied Energistics 2] (appliedenergistics2-rv3-beta-6-client.jar) 
+	UCHIJAA	bdlib{1.9.4.109} [BD Lib] (bdlib-1.9.4.109-mc1.7.10.jar) 
+	UCHIJAA	ae2stuff{0.5.1.9} [AE2 Stuff] (ae2stuff-rv3-0.5.1.9-mc1.7.10.jar) 
+	UCHIJAA	Backpack{2.0.1} [Backpack] (backpack_2.0.1_1.7.x.jar) 
+	UCHIJAA	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) 
+	UCHIJAA	BiblioCraft{1.11.7} [BiblioCraft] (BiblioCraft-1.11.7-client.jar) 
+	UCHIJAA	botaniaaddon{0.1} [Botania++] (botania++.jar) 
+	UCHIJAA	Thaumcraft{4.2.3.5} [Thaumcraft] (Thaumcraft_1.7.10_4.2.3.5.jar) 
+	UCHIJAA	Botania{r1.8-249} [Botania] (Botania-r1.8-249.jar) 
+	UCHIJAA	CoFHCore{1.7.10R3.1.4} [CoFH Core] (CoFHCore-[1.7.10]3.1.4-329-client.jar) 
+	UCHIJAA	BrandonsCore{1.0.0.12} [Brandon's Core] (BrandonsCore.jar) 
+	UCHIJAA	BuildCraft|Core{7.1.23} [BuildCraft] (buildcraft-7.1.23.jar) 
+	UCHIJAA	BuildCraft|Transport{7.1.23} [BC Transport] (buildcraft-7.1.23.jar) 
+	UCHIJAA	BuildCraft|Factory{7.1.23} [BC Factory] (buildcraft-7.1.23.jar) 
+	UCHIJAA	BuildCraft|Silicon{7.1.23} [BC Silicon] (buildcraft-7.1.23.jar) 
+	UCHIJAA	BuildCraft|Robotics{7.1.23} [BC Robotics] (buildcraft-7.1.23.jar) 
+	UCHIJAA	BuildCraft|Energy{7.1.23} [BC Energy] (buildcraft-7.1.23.jar) 
+	UCHIJAA	BuildCraft|Builders{7.1.23} [BC Builders] (buildcraft-7.1.23.jar) 
+	UCHIJAA	ThermalFoundation{1.7.10R1.2.6} [Thermal Foundation] (ThermalFoundation-[1.7.10]1.2.5-115.jar) 
+	UCHIJAA	ThermalExpansion{1.7.10R4.1.5} [Thermal Expansion] (ThermalExpansion-[1.7.10]4.1.3-246.jar) 
+	UCHIJAA	BuildCraft|Compat{7.1.7} [BuildCraft Compat] (buildcraft-compat-7.1.7-client.jar) 
+	UCHIJAA	CarpentersBlocks{3.3.8.1} [Carpenter's Blocks] (CarpentersBlocks_v3.3.8.1_client_cacheFix.jar) 
+	UCHIJAA	customnpcs{1.7.10d} [CustomNpcs] (CustomNPCs-1.7.10d-cl_latest.jar) 
+	UCHIJAA	DraconicEvolution{1.0.2h} [Draconic Evolution] (Draconic-Evolution-1.7.10-client-m.jar) 
+	UCHIJAA	DragonsRadioMod{1.7.1} [Dragon's Radio Mod] (Dragon's+Radio+Mod-MC1.7.10-1.7.1.jar) 
+	UCHIJAA	EMT{1.2.6.2} [Electro-Magic Tools] (ElectroMagicTools-1.2.6.2[1.7.10].jar) 
+	UCHIJAA	endercore{1.7.10-0.2.0.39_beta} [EnderCore] (EnderCore-Client.jar) 
+	UCHIJAA	EnderIO{1.7.10-2.3.0.429_beta} [Ender IO] (EnderIO-Client5.jar) 
+	UCHIJAA	GraviSuite{2.5.0b1} [Gravitation Suite] (GraviSuite.jar) 
+	UCHIJAA	IC2NuclearControl{2.4.3a} [Nuclear Control 2] (ic2nuclearcontrol.jar) 
+	UCHIJAA	IronChest{6.0.62.742} [Iron Chest] (ironchest.jar) 
+	UCHIJAA	Mantle{1.7.10-0.3.2.jenkins191} [Mantle] (Mantle.jar) 
+	UCHIJAA	tcmatrix{0.1} [tcmatrix] (MatrixAddon.jar) 
+	UCHIJAA	PowerUtils{1.7.10-1.0.4} [PowerUtils] (PowerUtils_1.7.10_1.0.4.jar) 
+	UCHIJAA	symcalc{0.14} [Symcalc] (symcalc-0.14.jar) 
+	UCHIJAA	TConstruct{1.7.10-1.8.8.build988} [Tinkers' Construct] (TConstruct-1.7.10-1.8.8-client-hat.jar) 
+	UCHIJAA	thaumicenergistics{1.1.3.0} [Thaumic Energistics] (thaumicenergistics-1.1.3.0.jar) 
+	UCHIJAA	ThaumicTinkerer{unspecified} [Thaumic Tinkerer] (ThaumicTinkerer-2.5-1.7.10-538-client.jar) 
+	UCHIJAA	ThermalDynamics{1.7.10R1.2.1} [Thermal Dynamics] (ThermalDynamics-[1.7.10]1.2.0B2-169.jar) 
+	UCHIJAA	woodenbucket{0.0.3.9} [Wooden Bucket] (WoodenBucket-1.7.10-0.0.3b9-universal.jar) 
+	AE2 Version: beta rv3-beta-6 for Forge 10.13.4.1448
+	CoFHCore: -[1.7.10]3.1.4-329
+	ThermalFoundation: -[1.7.10]1.2.6-118
+	ThermalExpansion: -[1.7.10]4.1.5-248
+	Mantle Environment: DO NOT REPORT THIS CRASH! Unsupported mods in environment: bukkit
+	TConstruct Environment: Environment healthy.
+	ThermalDynamics: -[1.7.10]1.2.1-172
+	List of loaded APIs: 
+		* appliedenergistics2|API (rv2) from ThaumicTinkerer-2.5-1.7.10-538-client.jar
+		* Baubles|API (1.0.1.10) from Baubles-1.7.10-1.0.1.10.jar
+		* BotaniaAPI (76) from Botania-r1.8-249.jar
+		* BuildCraftAPI|blocks (1.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|blueprints (1.5) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|boards (2.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|core (2.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|crops (1.1) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|events (2.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|facades (1.1) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|filler (4.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|fuels (2.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|gates (4.1) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|items (1.1) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|library (2.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|lists (1.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|power (1.3) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|recipes (3.1) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|robotics (3.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|statements (1.1) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|tablet (1.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|tiles (1.2) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|tools (1.0) from buildcraft-7.1.23.jar
+		* BuildCraftAPI|transport (4.1) from buildcraft-7.1.23.jar
+		* CarpentersBlocks|API (3.3.7) from CarpentersBlocks_v3.3.8.1_client_cacheFix.jar
+		* CoFHAPI (1.7.10R1.0.2) from ic2nuclearcontrol.jar
+		* CoFHAPI|block (1.7.10R1.0.13) from EnderIO-Client5.jar
+		* CoFHAPI|core (1.7.10R1.3.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHAPI|energy (1.7.10R1.0.2) from BrandonsCore.jar
+		* CoFHAPI|fluid (1.7.10R1.3.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHAPI|inventory (1.7.10R1.0.1) from buildcraft-compat-7.1.7-client.jar
+		* CoFHAPI|item (1.7.10R1.0.13) from EnderIO-Client5.jar
+		* CoFHAPI|modhelpers (1.7.10R1.3.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHAPI|tileentity (1.7.10R1.0.13) from EnderIO-Client5.jar
+		* CoFHAPI|transport (1.7.10R1.0.1) from buildcraft-compat-7.1.7-client.jar
+		* CoFHAPI|world (1.7.10R1.3.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|audio (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|gui (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|gui|container (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|gui|element (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|gui|element|listbox (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|gui|slot (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|inventory (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|render (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|render|particle (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|util (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|util|helpers (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|util|position (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|world (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* CoFHLib|world|feature (1.7.10R1.2.1) from CoFHCore-[1.7.10]3.1.4-329-client.jar
+		* DraconicEvolution|API (1.2) from Draconic-Evolution-1.7.10-client-m.jar
+		* EnderIOAPI (0.0.2) from EnderIO-Client5.jar
+		* EnderIOAPI|Redstone (0.0.2) from EnderIO-Client5.jar
+		* EnderIOAPI|Teleport (0.0.2) from EnderIO-Client5.jar
+		* EnderIOAPI|Tools (0.0.2) from EnderIO-Client5.jar
+		* IC2API (1.0) from PowerUtils_1.7.10_1.0.4.jar
+		* NuclearControlAPI (v1.0.5) from ic2nuclearcontrol.jar
+		* Thaumcraft|API (4.2.2.0) from Thaumcraft_1.7.10_4.2.3.5.jar
+		* thaumicenergistics|API (1.1) from thaumicenergistics-1.1.3.0.jar
+	EnderIO: Found the following problem(s) with your installation:
+                 An unsupported base software is installed: 'cauldron, craftbukkit, mcpc, mohist'. This is NOT supported.
+                 This may have caused the error. Try reproducing the crash WITHOUT this/these mod(s) before reporting it.
+	AE2 Integration: IC2:ON, RotaryCraft:OFF, RC:OFF, BuildCraftCore:ON, BuildCraftTransport:ON, BuildCraftBuilder:ON, RF:ON, RFItem:ON, MFR:OFF, DSU:ON, FZ:OFF, FMP:OFF, RB:OFF, CLApi:OFF, Waila:OFF, Mekanism:OFF, ImmibisMicroblocks:OFF, BetterStorage:OFF, OpenComputers:OFF, PneumaticCraft:OFF
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 10; []
+	Is Modded: Definitely; Server brand changed to 'cauldron,craftbukkit,mcpc,mohist,fml,forge'
+	Type: Dedicated Server (map_server.txt)
